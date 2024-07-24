@@ -1,0 +1,19 @@
+<link rel="stylesheet" type="text/css" href="style.css">
+<audio id="player" src="ReveTest6R.mp3" autoplay>
+  <source type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<button onclick="document.getElementById('player').play()">Play</button>
+<button onclick="document.getElementById('player').pause()">Pause</button>
+<button onclick="document.getElementById('player').muted=!document.getElementById('player').muted">Mute/Unmute</button>
+
+<div id="text" style="color: #aaa">Sheep by Kevin Lee
+  <br>R&ecirc;ve d'enfant - Eug&#232;ne Ysa&#255;e</div>
+
+<div id="particles-js"></div>
+<script src="particles.js"></script>
+<script>
+particlesJS.load('particles-js', 'particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
+</script>
