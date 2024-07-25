@@ -50,7 +50,7 @@
       "random": true,
       "anim": {
         "enable": false,
-        "speed": 20,
+        "speed": 80,
         "size_min": 0.1,
         "sync": false
       }
@@ -64,7 +64,11 @@
     },
     "move": {
       "enable": true,
+<<<<<<< HEAD
       "speed": 1,
+=======
+      "speed": 0.3,
+>>>>>>> parent of 28a31cf (everything slower)
       "direction": "none",
       "random": false,
       "straight": false,
@@ -102,7 +106,7 @@
         "size": 40,
         "duration": 2,
         "opacity": 0.8,
-        "speed": 2
+        "speed": 3
       },
       "repulse": {
         "distance": 400,
